@@ -39,14 +39,29 @@ ai_response_evaluator/
 
 ## How to Run
 
-No external packages required — uses Python standard library only.
+**1. Clone the repo**
+```bash
+git clone https://github.com/Erickaboss/Ai-response-Evaluator.git
+cd Ai-response-Evaluator/ai_response_evaluator
+```
 
-**Interactive mode** (enter your own prompt and response):
+**2. Install Streamlit (for browser UI)**
+```bash
+pip install streamlit
+```
+
+**3. Run in the browser**
+```bash
+python -m streamlit run app.py
+```
+Then open http://localhost:8501 in your browser.
+
+**Or run in the terminal (no dependencies)**
 ```bash
 python main.py
 ```
 
-**Run built-in examples:**
+**Run built-in examples in terminal:**
 ```bash
 python main.py --examples
 ```
